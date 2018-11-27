@@ -1,34 +1,38 @@
 html,
 body {
-    font-family: Arial, sans-serif;;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar-container {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 
 h1 {
-    color: #535454;
-    font-size: 22px;
-    margin: 0 0 10px 0
-    text-align: left;
-    display: inline-block;
+  color: #535454;
+  font-size: 22px;
+  margin: 0 0 10px 0
+  text-align: left;
+  display: inline-block;
 }
 
 #map, #map-outer {
-    height: 1000px;
-    position: relative;
+  height: 1000px;
+  position: relative;
 }
 
 #infowindow_pano {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+#infowindow_yelp_error {
+  display: none;
 }
 
 #infowindow_streetview_error {
-    display: none;
+  display: none;
 }

@@ -22,15 +22,16 @@
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-firestore.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
   <script>
       // Initialize Firebase
       var config = {
-          apiKey: "AIzaSyCEH7VUMdU-Tq1ZgcVYKg_qJRUG7DPYyl0",
-          authDomain: "kitchenerbicycleprivate.firebaseapp.com",
-          databaseURL: "https://kitchenerbicycleprivate.firebaseio.com",
-          projectId: "kitchenerbicycleprivate",
-          storageBucket: "kitchenerbicycleprivate.appspot.com",
-          messagingSenderId: "453455021379"
+          apiKey: "AIzaSyDPE87kP4mW1RMSPsxkTDHbJcpGN8oYGZQ",
+          authDomain: "waterloobicycle.firebaseapp.com",
+          databaseURL: "https://waterloobicycle.firebaseio.com",
+          projectId: "waterloobicycle",
+          storageBucket: "waterloobicycle.appspot.com",
+          messagingSenderId: "866592934712"
       };
       firebase.initializeApp(config);
   </script>
@@ -44,7 +45,7 @@
   <div class="container-fluid map-outer">
     <div class="row map-outer">
       <div class="col-xs-12 col-md-3">
-        <h1>Kitchener Bicycle</h1>
+        <h1>Waterloo BikeSpace</h1>
 
           <div class="input-group">
             <span class="input-group-btn">
@@ -54,9 +55,6 @@
           </div>
         <div class="btn-group" role="group">
           <button class="btn btn-default" data-bind="click: toggleRingRack, css: ringRackButtonType">Ring</button>
-          <button class="btn btn-default" data-bind="click: toggleRingRack, css: ringRackButtonType">Ground</button>
-          <button class="btn btn-default" data-bind="click: toggleRingRack, css: ringRackButtonType">U</button>
-          <button class="btn btn-default" data-bind="click: toggleRingRack, css: ringRackButtonType">Post</button>
         </div>
 
         <div class="list-group">

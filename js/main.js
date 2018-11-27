@@ -49,6 +49,8 @@ var viewModel = {
     showStreetViewError: ko.observable(true),
     showStreetView: ko.observable(true),
     filterRingRack: ko.observable(false),
+    filterGroundRack: ko.observable(false),
+    filterInvertedRack: ko.observable(false)
 };
 
 $(function() {
